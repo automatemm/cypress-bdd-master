@@ -1,0 +1,44 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node cypress_runner -r run --env dev",
+    "debug": "node cypress_runner --env dev",
+    "test": "node_modules/.bin/cypress-tags run",
+    "bddTests": "npm run test -- -e TAGS='@login' --browser chrome"
+  },
+  "author": "Madhan Mahadevan",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber-html-reporter": "^5.2.0",
+    "cypress": "^8.0.0",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "typescript": "^3.8.3",
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1",
+    "cypress-multi-reporters": "^1.5.0",
+    "fs-extra": "9.0.1",
+    "ls": "^0.2.1",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^2.0.1",
+    "mochawesome-report-generator": "^5.2.0",
+    "path": "0.12.7",
+    "rimraf": "^2.7.1",
+    "yargs": "^14.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

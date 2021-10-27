@@ -1,0 +1,31 @@
+{
+  "pageLoadTimeout": 50000,
+  "defaultCommandTimeout": 50000,
+  "requestTimeout": 50000,
+  "responseTimeout": 50000,
+  "video": false,
+  "WatchForFileChanges": false,
+  "chromeWebSecurity": false,
+  "numTestsKeptInMemory": 0,
+  "viewportHeight": 1297,
+  "viewportWidth": 3000,
+  "reporter": "mochawesome",
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}",
+  "projectId": "11zq28",
+  "screenshotsFolder": "cypress/report/assets",
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "timestamp": "mmddyyyy_HHMMss"
+  },
+  "env": {
+    "StubTest": "",
+    "RETRIES": 0,
+    "Environment": "local",
+    "TEST_TAGS": "",
+    "XHRtimeout": 50000
+  }
+}

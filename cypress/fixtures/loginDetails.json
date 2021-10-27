@@ -1,0 +1,11 @@
+{
+  "name": "Madhan",
+  "email": "msoft89@gmail.com",
+  "gender": "Female",
+  "password": "Password123",
+  "productName": [
+    "Blackberry",
+    "Nokia Edge",
+    "iphone X"
+  ]
+}

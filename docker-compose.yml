@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  # Cypress container
+  e2e-chrome:
+    image: 'cypress/base:10'
+    command: 'npm run dev'
+    volumes:
+      - ./cypress:/cypress
+      - ./cypress.json:/cypress.json

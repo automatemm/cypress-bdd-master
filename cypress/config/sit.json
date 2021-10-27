@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://goldtest:g0ld5ive@s02beta.selfridges.com",
+  "env": {
+    "Environment": "sit"
+  }
+}

@@ -14,6 +14,10 @@
   "testFiles": "**/*.{feature,features}",
   "projectId": "11zq28",
   "screenshotsFolder": "cypress/report/assets",
+  "retries": {
+    "runMode": 1,
+    "openMode": 1
+  },
   "reporterOptions": {
     "reportDir": "cypress/report",
     "overwrite": false,

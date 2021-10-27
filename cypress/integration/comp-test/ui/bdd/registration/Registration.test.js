@@ -2,7 +2,7 @@
 import { When, Then, And } from 'cypress-cucumber-preprocessor/steps';
 import HomePage from '../../../../pageObjects/HomePage.js';
 import PersonalDetailsPage from '../../../../pageObjects/PersonalDetailsPage.js';
-import RegistrationPage from '../../../../../plugins/RegistrationPage.js';
+import RegistrationPage from '../../../../pageObjects/RegistrationPage.js';
 import Routes from '../../../routes/Routes.js';
 
 const pdPage = new PersonalDetailsPage();
@@ -29,7 +29,7 @@ afterEach(() => {
 });
 
 Given('I am in the Selfridges login page', () => {
-   homePage.mouseOverAndClickOnSignIn();
+  homePage.mouseOverAndClickOnSignIn();
 });
 
 When('I click on Sign me up button', () => {

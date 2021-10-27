@@ -1,5 +1,5 @@
-import BasePage from "../../../../pageObjects/BasePage.js";
-import PersonalDetailsPage from "../../../../pageObjects/PersonalDetailsPage.js";
+import BasePage from "./BasePage.js";
+import PersonalDetailsPage from "./PersonalDetailsPage.js";
 
 const SIGN_ME_BUTTON = "button[data-testid='sign-me-up']";
 const TITLE_FIELD = "input[name='personTitle']";

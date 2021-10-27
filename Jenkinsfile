@@ -10,19 +10,17 @@ pipeline {
     }
 
     stages {
-    stage('Prepare Workspace') {
+    stage('Cypress Test Suite') {
         steps {
             git branch: 'master',
                 credentialsId: '06013e17-3135-42d8-bec7-d261319b2ccb',
                 url: 'https://github.com/automatemm/cypress-bdd-master.git'
-
-            sh "ls -lat"
         }
     }
         stage('Functional Tests') {
             steps {
-                sh 'npm install'
-                sh 'npm run dev'
+                bat 'npm install'
+                bat 'npm run dev'
             }
         }
 

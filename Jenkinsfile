@@ -20,6 +20,7 @@ pipeline {
         stage('Functional Tests') {
             steps {
                 bat 'npm install'
+                bat 'npm update'
                 bat 'npm run dev'
             }
         }

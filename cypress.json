@@ -14,6 +14,7 @@
   "testFiles": "**/*.{feature,features}",
   "projectId": "11zq28",
   "screenshotsFolder": "cypress/report/assets",
+  "experimentalStudio": true,
   "retries": {
     "runMode": 1,
     "openMode": 1

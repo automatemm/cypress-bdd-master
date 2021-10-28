@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "cucumber-html-reporter": "^5.2.0",
-    "cypress": "^8.0.0",
+    "cypress": "^8.7.0",
     "cypress-cucumber-preprocessor": "^2.5.5",
     "multiple-cucumber-html-reporter": "^1.18.0",
     "typescript": "^3.8.3",
